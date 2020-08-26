@@ -6,7 +6,7 @@ Este ejercicio contiene la elaboración de la clase **_Item_**, es nuestra prime
 
 Crear una clase en base el diagrama UML siguiente:
 
-![Aquí la descripción de la imagen por si no carga](https://github.com/doralisa/object-exercise-two/classimage.png)
+![Aquí la descripción de la imagen por si no carga](https://github.com/doralisa/object-exercise-two/blob/feature/Sandy/classimage.png)
 
 Con base a esa clase, crear un programa que permita a un usuario crear un Item con los datos necesarios y con base a estos, el programa debe mostrar la siguiente salida por terminal:
 
