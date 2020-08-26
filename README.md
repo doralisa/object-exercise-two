@@ -2,12 +2,29 @@
 
 Este ejercicio contiene la elaboración de la clase **_Item_**, es nuestra primera práctica colaborativa para el curso de Backend online de **ADA**.
 
+## Enunciado de la práctica:
 
-## Colaboradoras.
-- Doralys.
-- Elizabeth.
-- Judit.
-- Sandy.
+Crear una clase en base el diagrama UML siguiente:
+
+![Aquí la descripción de la imagen por si no carga](https://github.com/doralisa/object-exercise-two/classimage.png)
+
+Con base a esa clase, crear un programa que permita a un usuario crear un Item con los datos necesarios y con base a estos, el programa debe mostrar la siguiente salida por terminal:
+
+```bash
+- Nombre: xxxx
+- Precio: xxxx
+- Impuesto: xxxx
+- Total a pagar: xxxx
+```
+
+Esto solo se debe mostrar si la fecha de vencimiento aun es valida, en caso contrario, se debe mostrar un texto que diga: 
+
+```bash
+Este Ítem no está habilitado para la venta
+```
+**_Nota: El usuario solo debe ingresar los datos para el nombre del ítem, el precio y la
+fecha de vencimiento. El impuesto y el total a pagar se deben calcular en los métodos
+de la clase._**
 
 ## Clase Item.
 
@@ -51,3 +68,10 @@ Calcula la cantidad total a pagar incluyendo precio del producto e impuestos. Re
 ```java
 product.getTotalToPay();
 ``` 
+
+## Colaboradoras.
+- Doralys.
+- Elizabeth.
+- Judit.
+- Sandy.
+
