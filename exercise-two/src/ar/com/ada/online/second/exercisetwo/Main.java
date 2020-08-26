@@ -15,7 +15,7 @@ public class Main {
         DateFormat df = new SimpleDateFormat("dd/MM/yyyy");
 
         System.out.print("Ingrese el producto a comprar: ");
-        product.name = keyboard.next();
+        product.name = keyboard.nextLine();
 
         System.out.print("Ingrese el precio del producto: ");
         product.price = keyboard.nextDouble();
